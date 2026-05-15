@@ -1,0 +1,120 @@
+body {
+    body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    margin: 0;
+}
+
+.login-wrapper {
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* LOGO FB */
+.circle {
+    width: 70px;
+    height: 70px;
+    background-color: #0866FF;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.f {
+    color: white;
+    font-size: 75px;
+    font-weight: bold;
+    margin-bottom: -10px;
+    margin-right: -10px;
+}
+
+/* INPUTS */
+input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #dddfe2;
+    border-radius: 8px;
+    background-color: #f5f6f7;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* BOUTONS */
+.btn-connect {
+    width: 100%;
+    background-color: #0866FF;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 25px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-create {
+    width: 100%;
+    background-color: white;
+    color: #0866FF;
+    border: 1px solid #0866FF;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Enlève le trait sous les liens et gère la couleur */
+a {
+    text-decoration: none;
+}
+
+.link-forgot a {
+    color: #606770;
+}
+
+.link-forgot a:hover {
+    text-decoration: underline; /* Le trait apparaît seulement quand on passe la souris */
+}
+
+.link-btn-wrapper {
+    display: block;
+    width: 100%;
+}
+
+
+.link-forgot {
+    color: #606770;
+    font-size: 14px;
+    margin: 15px 0;
+}
+
+/* META FOOTER (Espace réduit) */
+.meta-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 15px; /* Espace réduit comme demandé */
+}
+
+.m-symbol {
+    color: #0064e0;
+    font-size: 25px;
+}
+
+.m-text {
+    color: #606770;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+}
