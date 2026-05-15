@@ -14,6 +14,12 @@ body {
     padding-top: 50px;
 }
 
+.fb-logo img {
+    display: block;
+    margin: 0 auto; /* Cela centre l'image horizontalement */
+    width: 100px;   /* Ajuste la taille si besoin */
+}
+    
 /* LOGO FB */
 .circle {
     width: 70px;
